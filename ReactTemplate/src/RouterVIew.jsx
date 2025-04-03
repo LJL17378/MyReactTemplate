@@ -8,7 +8,7 @@ const NotFound = lazy(() => import("./pages/NotFound/NotFound"))
 
 export default function RouterView(){
     return(
-        <div className="w-full h-screen bg-red-300">
+        <div className="w-full h-screen bg-green-50">
         <Suspense>
             <Switch>
                 <Route path="/home" component={Home}/>
